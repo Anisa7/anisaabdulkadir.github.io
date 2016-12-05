@@ -21,6 +21,7 @@ button.accordion {
 
 button.accordion.active, button.accordion:hover {
     background-color: #eee;
+    color:grey;
 }
 
 div.panel {
@@ -41,7 +42,7 @@ div.panel.show {
 button.accordion:after {
     content: '\02795'; 
     font-size: 13px;
-    color: white;
+    color:none;
     float: right;
     margin-left: 5px;
 }
