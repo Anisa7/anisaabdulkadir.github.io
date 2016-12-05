@@ -41,7 +41,7 @@ div.panel.show {
 button.accordion:after {
     content: '\02795'; 
     font-size: 13px;
-    color: #777;
+    color: white;
     float: right;
     margin-left: 5px;
 }
