@@ -3,8 +3,33 @@ body {
   font-family: Helvetica, sans-serif;
   color: grey;
 
-  background-image: url("concrete.png");
-  
+  background-image: url("concrete.png");  
 }
 
+button.accordion {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size:20px;
+    transition: 0.4s;
+}
 
+button.accordion.active, button.accordion:hover {
+    background-color: #eee;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+div.panel.show {
+    display: block;
+    opacity:0;
+}
