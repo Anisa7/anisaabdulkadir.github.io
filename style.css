@@ -1,5 +1,5 @@
 body {
-  font-size: 50px;
+  font-size: 80px;
   font-family: Helvetica, sans-serif;
   color: grey;
 
@@ -11,7 +11,7 @@ button.accordion {
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 80%;
+    width: 75%;
     border: none;
     text-align: left;
     outline: none;
@@ -28,7 +28,7 @@ div.panel {
     padding: 0 18px;
     background-color: white;
     max-height:0;
-    width:1000px;
+    width:9000px;
     overflow: hidden;
     transition: 0.6s ease-in-out;
     opacity: 0;
