@@ -1,14 +1,14 @@
 body {
   font-size: 90px;
   font-family: Helvetica, sans-serif;
-  color: #708090;
+  color: grey;
 
   background-image: url("concrete.png");  
 }
 
 
 button.accordion {
-    background-color: #F5F5F5;
+    background-color: grey;
     color: white;
     cursor: pointer;
     padding: 10px;
