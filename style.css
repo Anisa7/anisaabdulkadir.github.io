@@ -4,14 +4,4 @@ body {
   color: purple;
 }
 
-.hero {
-  background-image: 
-url('file:///Users/Anisa/Desktop/Photos/England/Flowerxflower.jpg');
-  background-position: center top;
-	background-size: cover;
-	padding: 250px 0;
-	margin: 30px;
-	text-shadow: 0 2px #000000;
-	font-family: 'Helvetica',sans-serif;
-  opacity: 0.5;
-}
+
