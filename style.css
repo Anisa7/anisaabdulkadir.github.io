@@ -32,4 +32,5 @@ div.panel {
 div.panel.show {
     display: block;
     opacity:0;
+    max-height:500px
 }
