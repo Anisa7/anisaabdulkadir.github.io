@@ -7,7 +7,7 @@ body {
 .center {
     position: 10px;
     width:50%
-    text-align: center;
+    margin: auto;
 }
 
 
