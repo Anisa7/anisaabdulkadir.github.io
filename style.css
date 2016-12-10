@@ -9,7 +9,7 @@ button.accordion {
     color: white;
     cursor: pointer;
     padding: 10px;
-    width: 75%;
+    width: 70%;
     border: none;
     text-align: left;
     outline: none;
@@ -19,14 +19,14 @@ button.accordion {
 
 button.accordion.active, button.accordion:hover {
     background-color: #ffd700;
-    color:grey;
+    color:black;
 }
 
 div.panel {
     padding: 0 18px;
     background-color: white;
     max-height:0;
-    width:8000px;
+    width:3000px;
     overflow: hidden;
     transition: 0.6s ease-in-out;
     opacity: 0;
