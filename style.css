@@ -6,3 +6,13 @@ body {
       background-color: gold;
       color: #5a5b5b;
 }
+
+.middle {
+      background-color:#5a5b5b;
+      color: white;
+}
+
+.bottom {
+      background-color:white;
+      color: black;
+  }
