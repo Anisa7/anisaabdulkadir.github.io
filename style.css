@@ -4,9 +4,10 @@ body {
   padding:0;
 }
 
-.container {
-    position: relative;
-    width: 100%;
+.center {
+    position: 10px;
+    width:50%
+    text-align: center;
 }
 
 
