@@ -3,12 +3,24 @@ body {
   font-family: Helvetica, sans-serif;
   color: grey;
 
-
   background-image: url("concrete.png"); 
- 
- 
 }
 
+div {
+    padding: 30px;
+    background-color: yellow;
+    width: 400px;
+    display: table;
+}
+img {
+    vertical-align: middle;
+    display: table-cell;
+    margin-right: 1em;
+}
+span {
+    vertical-align: middle;
+    display: table-cell;
+}
 
 button.accordion {
     background-color: grey;
