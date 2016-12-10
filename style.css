@@ -2,19 +2,7 @@ body {
   background-image: url("concrete.png"); 
 }
 
-.header {
-  position: center;
-  color:grey;
-  font-size:30px;
-  font-family:Helvetica, sans-serif;
-  height:40px;
-  width: 98%;
-  background-color: #668284;
-}
 
-.content {
-  position:center;
-}
 
 button.accordion {
     background-color: grey;
