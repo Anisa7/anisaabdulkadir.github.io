@@ -5,16 +5,19 @@ body {
 .top { 
       background-color: gold;
       color: #5a5b5b;
+      padding: 10px;
 }
 
 .middle {
       background-color:#5a5b5b;
       color: white;
+      padding: 10px;
 }
 
 .bottom {
       background-color:white;
       color: black;
+      padding: 10px;
   }
 
 
