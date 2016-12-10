@@ -11,7 +11,7 @@ body {
 
 
 button.accordion {
-    background-color: #ffd700;
+    background-color: grey;
     color: white;
     cursor: pointer;
     padding: 10px;
@@ -24,8 +24,8 @@ button.accordion {
 }
 
 button.accordion.active, button.accordion:hover {
-    background-color: grey;
-    color:black;
+    background-color: #ffd700;
+    color:grey;
 }
 
 div.panel {
