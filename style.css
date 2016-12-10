@@ -20,7 +20,7 @@ body {
   }
 
 
-button.accordion {  
+button.panel {  
     background-color: white;
     color: #5a5b5b;
     cursor: pointer;
@@ -35,9 +35,7 @@ button.accordion {
     
 }
 
-button.accordion.active, button.accordion:hover {
-    background-color: gold;
-    color:#5a5b5b;
+
     
 }
 
@@ -55,9 +53,3 @@ div.panel {
   
 }
 
-div.panel.show {
-    opacity: 1;
-    max-height: 600px;
-    
-    
-}
