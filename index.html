@@ -18,10 +18,41 @@
    <p>Curiosity has shaped almost every life decision I've made in life from education, work experience, and now programming.</p> 
     <p>In addition to my inquisitiveness, I am a quick learner with excellent oral and written communication skills.</p> 
  </div>
-   
+ 
+ 
+ 
 <div class="middle">
  <div class="container middle text-center">
-  <h1>Experience</h1>
+  <section class="container">
+  <div class="row text-ccenter"> 
+  <button class="accordion">Education</button>
+    <div class="panel">
+     <p>...</p>   
+   </div>
+
+  <button class="accordion">Professional Experience</button>
+    <div class="panel">
+     <p>...</p>
+    </div>
+
+<button class="accordion">Service Experience</button>
+   <div class="panel">
+<p>...</p>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script> 
+  
+  </div>
+  </section>
  </div>
 
 <div class="bottom">
