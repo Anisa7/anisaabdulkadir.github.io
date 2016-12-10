@@ -3,7 +3,8 @@ body {
   font-family: Helvetica, sans-serif;
   color: grey;
 
-  background-image: url("mix.png");  
+  background-image: url("mix.png"); 
+  background-repeat:no repeat;
  
 }
 
