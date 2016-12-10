@@ -6,20 +6,7 @@ body {
   background-image: url("concrete.png"); 
 }
 
-div {
-    padding: 30px;
-    width: 400px;
-    display: table;
-}
-img {
-    vertical-align: middle;
-    display: table-cell;
-    margin-right: 1em;
-}
-span {
-    vertical-align: middle;
-    display: table-cell;
-}
+
 
 button.accordion {
     background-color: grey;
