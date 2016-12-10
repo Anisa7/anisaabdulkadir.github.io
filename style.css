@@ -3,8 +3,9 @@ body {
   font-family: Helvetica, sans-serif;
   color: grey;
 
-  background-image: url("concrete.png") center bottom, url("yellow.png") center top;
-  background-repeat: no repeat, no repeat;
+  background-image: url("concrete.png") center bottom, 
+  background: url("yellow.png") center top;
+ 
 }
 
 
