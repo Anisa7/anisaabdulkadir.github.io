@@ -24,6 +24,8 @@ button.accordion {
 button.accordion.active, button.accordion:hover {
     background-color: #ffd700;
     color:black;
+    margin:auto;
+    width:65%
 }
 
 div.panel {
