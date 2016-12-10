@@ -3,11 +3,11 @@ body {
   font-family: Helvetica, sans-serif;
   color: grey;
 
-  background-image: url("concrete.png")   
+  background-image: url("concrete.png");  
  
 }
 
-.top-half {
+.bottom-half {
   background: #b6701e;
 }
 
