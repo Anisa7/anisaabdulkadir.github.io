@@ -11,8 +11,6 @@ body {
 }
 
 
-
-
 button.accordion {
     background-color: grey;
     color: white;
@@ -35,7 +33,7 @@ div.panel {
     padding: 0 18px;
     background-color: white;
     max-height:0;
-    width:2000px;
+    width:8000px;
     overflow: hidden;
     transition: 0.6s ease-in-out;
     opacity: 0;
