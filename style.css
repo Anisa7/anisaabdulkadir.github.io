@@ -16,3 +16,58 @@ body {
       background-color:white;
       color: black;
   }
+
+
+button.accordion {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 65%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    
+  
+    
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ffd700;
+    color:black;
+    
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height:0;
+    width:65%;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    
+   
+  
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 800px;
+    color:black;
+    
+}
+
+button.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color:none;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
