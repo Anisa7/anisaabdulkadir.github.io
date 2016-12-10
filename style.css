@@ -1,5 +1,5 @@
 body {
-  font-size: 90px;
+  font-size: 20px;
   font-family: Helvetica, sans-serif;
   color: grey;
 
@@ -7,9 +7,6 @@ body {
  
 }
 
-.bottom-half {
-  background: #b6701e;
-}
 
 button.accordion {
     background-color: grey;
