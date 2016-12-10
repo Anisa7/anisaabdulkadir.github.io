@@ -1,3 +1,8 @@
 body {
-  background-image: url("speck.jpg");
+  
+}
+
+.bg-1 { 
+      background-color: gold;
+      color: #ffffff;
 }
